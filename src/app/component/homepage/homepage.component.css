@@ -1,0 +1,121 @@
+.main{
+    background-color: #fff;
+}
+.main > .landing{
+    display: flex;
+    background-color: #ccc;
+    min-height: max-content;
+    gap: 8rem;
+}
+.main > .landing > .left > img{
+    width: 35rem;
+    height: 30rem;
+}
+.main > .landing > .right{
+    margin-right: 3rem;
+}
+.main > .landing > .right > h1{
+    color: blue;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.main > .landing > .right > p{
+    line-height: 2;
+    color: rgb(13, 13, 88);
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.buttons > .btn1, .btn2{
+    width: 11rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all ease-in-out 0.5s;
+}
+.buttons > .btn1{
+    background-color: white;
+    color: black;
+}
+.buttons > .btn2{
+    background-color: #999;
+    color: white;
+}
+.b.buttons > .btn1:hover{
+    background-color: #999;
+    color: white;
+}uttons > .btn2{
+    background-color: #999;
+}
+.buttons > .btn1:hover{
+    background-color: #999;
+    color: white;
+}
+.buttons > .btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* SERVICES SECTION GOES HERE */
+.main > .services{
+    display: flex;
+    box-sizing: border-box;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+.main > .services > .box{
+    width: 18rem;
+    padding: 1rem;
+}
+.main > .services > .box> h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: rgb(20, 20, 87);
+    font-size: 45px;
+}
+.main > .services > .box> p{
+    line-height: 1.5;
+}
+/* cards section goes here */
+.main > .card-section{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+} 
+.main > .card-section > h3{
+    text-transform: capitalize;
+    font-family: 'elephant';
+    font-size: 30px;
+}
+.main > .card-section > .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.main > .card-section > .cards > .card{
+    width: 18rem;
+    height: 16rem;
+}
+.main > .card-section > .cards > .card > img{
+    width: 18rem;
+    height: 16rem;
+    box-shadow: 2px  0 4px #ccc;
+    border-radius: 10px;
+}
