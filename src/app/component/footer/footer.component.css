@@ -1,0 +1,58 @@
+.footer{
+    background-color: #6473c4;
+    margin-bottom: -16px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer > .navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer > .navs > li{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: aliceblue;
+    list-style: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.footer > .navs > li:hover{
+    color: greenyellow;
+    transform: translateY(-10px);
+}
+.footer >  .text >p{
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+}
+.footer > .social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer > .social-icons > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer > .social-icons > a > fa-icon{
+    color: aliceblue;
+    font-size: x-large;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.footer > .social-icons > a > fa-icon:hover{
+    color: #ff9758;
+}
+.footer > .copyright > p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aliceblue;
+}
